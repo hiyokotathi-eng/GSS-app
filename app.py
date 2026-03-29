@@ -4,9 +4,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # タイトル
-st.set_page_config(page_title="GSS Calculator", page_icon="🏆")
-st.title("🏆 GSS計算システム (Ver.3.1 最終確定版)")
-st.write("学連公式：ノートの定義・形状を完全再現")
+st.set_page_config(page_title="GSS Calculator", page_icon="G")
+st.title("G GSS計算システム (Ver.3.1 最終確定版)")
+st.write("公式に基づく")
 
 # 入力欄
 rank = st.number_input("自分の順位を入力してください", min_value=1, value=1, step=1)
